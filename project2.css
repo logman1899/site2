@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.bg {
+    background: url(/img/IMAGE1.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+    
+}
+  body {
+background-color: #222222;
+font-family: 'Roboto', sans-serif;
+}
+.center {
+    color:#ffffff;
+    font-size: 48px;
+    position: absolute;
+    width: 470px;
+    height: 106px;
+    top:-2px;
+    left: 533px;
+    top:226px;
+    text-align: center;
+
+}
+.ghost-btn {
+    display: inline-block;
+  width: 137px;
+  height: 39px;
+  padding: 8px;
+  color: #08C3A5;
+  border: 1px solid #08C3A5;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  background: none;
+  position: absolute;
+  top:390px;
+  left: 699px;
+  
+  
+}
+.ghost-btn2 {
+    display: inline-block;
+  width: 85px;
+  height: 39px;
+  padding: 8px;
+  color: #08C3A5;
+  border:none;
+  outline: none;
+  text-decoration: none;
+  background: none;
+  position: absolute;
+  top:48px;
+  right:450px ;
+  text-align: center;
+} 
+
+.ghost-btn3 {
+    display: inline-block;
+  width: 55px;
+  height: 39px;
+  padding: 8px;
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  background: none;
+  position: absolute;
+  top:48px;
+  right:368px;
+  
+}
+.ghost-btn4 {
+    display: inline-block;
+  width: 75px;
+  height: 39px;
+  padding: 8px;
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  background: none;
+  position: absolute;
+  top:48px;
+  right:270px;
+
+}
+
+.ghost-btn5  {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    color: #ffffff;
+    border: none;
+    background: none;
+    font-size: 24px;
+    position: absolute;
+    top: 43px;
+    left: 265px;
+}
+.ghost-btn:hover {
+    opacity: 60%;
+    transition:0.2s;
+}
+.ghost-btn2:hover {
+    opacity: 40%;
+    transition:0.2s;
+}
+.ghost-btn3:hover {
+    opacity: 60%;
+    transition:0.2s;
+}
+.ghost-btn4:hover {
+    opacity: 60%;
+    transition:0.2s;
+}
+.ghost-btn5:hover {
+    opacity: 60%;
+    transition:0.2s;
+}
+.ghost-btn:active {
+    opacity: 100%;
+    transition:0.2s;
+    color:#08C3A5;
+}
+.ghost-btn2:active {
+    opacity: 100%;
+    transition:0.2s;
+    color:#08C3A5;
+}
+.ghost-btn3:active {
+    color: #ffffff;
+    transition:0.2s;
+    opacity: 100%;
+}
+.ghost-btn4:active {
+    color: #ffffff;
+    transition:0.2s;
+    opacity: 100%;
+}
+.ghost-btn5:active {
+    
+    transition:0.2s;
+    color: #ffffff;
+    opacity: 100%;
+}
+.header {
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    width: 136px;
+    height: 30px;
+    left: 700px;
+    top: 589px;
+}
+.img {
+    background: url(/img/IMAGE.png);
+    height: 225px;
+    width: 300px;
+    position: absolute;
+    left:296px;
+    top:622px;
+    
+}
+.img2 {
+    background: url(/img/IMAGE-1.png);
+    height: 225px;
+    width: 300px;
+    position: absolute;
+    left:616px;
+    top:622px;
+}
+.img3 {
+    background: url(/img/IMAGE-2.png);
+    height: 225px;
+    width: 300px;
+    position: absolute;
+    left:936px;
+    top:622px;
+}
+.img4 {
+    background: url(/img/IMAGE-3.png);
+    height: 225px;
+    width: 300px;
+    position: absolute;
+    left:296px;
+    top:867px;
+}
+.img5 {
+    background: url(/img/IMAGE-4.png);
+    height: 225px;
+    width: 300px;
+    position: absolute;
+    left:616px;
+    top:867px;
+}
+.img6 {
+    background: url(/img/IMAGE-5.png);
+    height: 225px;
+    width: 300px;
+    position: absolute;
+    left:936px;
+    top:867px;
+}
+.img7 {
+    background: url(/img/IMAGE-6.png);
+    height: 225px;
+    width: 300px;
+    position: absolute;
+    left:296px;
+    top:1112px;
+}
+.img8 {
+    background: url(/img/IMAGE-7.png);
+    height: 225px;
+    width: 300px;
+    position: absolute;
+    left:616px;
+    top:1112px;
+}
+.img9 {
+    background: url(/img/IMAGE-8.png);
+    height: 225px;
+    width: 300px;
+    position: absolute;
+    left:936px;
+    top:1112px;
+}
+.img:hover {
+    background: url(/img/IMAGE.png);
+    height: 225px;
+    width: 300px;
+    position: absolute;
+    left:296px;
+    top:622px;
+    transform:scale(1.03);
+    transition: 1s;
+    
+}
+.img2:hover {
+    background: url(/img/IMAGE-1.png);
+    height: 225px;
+    width: 300px;
+    position: absolute;
+    left:616px;
+    top:622px;
+    transform:scale(1.03);
+    transition: 1s;
+}
+.img3:hover {
+    background: url(/img/IMAGE-2.png);
+    height: 225px;
+    width: 300px;
+    position: absolute;
+    left:936px;
+    top:622px;
+    transform:scale(1.03);
+    transition: 1s;
+}
+.img4:hover {
+    background: url(/img/IMAGE-3.png);
+    height: 225px;
+    width: 300px;
+    position: absolute;
+    left:296px;
+    top:867px;
+    transform:scale(1.03);
+    transition: 1s;
+}
+.img5:hover {
+    background: url(/img/IMAGE-4.png);
+    height: 225px;
+    width: 300px;
+    position: absolute;
+    left:616px;
+    top:867px;
+    transform:scale(1.03);
+    transition: 1s;
+}
+.img6:hover {
+    background: url(/img/IMAGE-5.png);
+    height: 225px;
+    width: 300px;
+    position: absolute;
+    left:936px;
+    top:867px;
+    transform:scale(1.03);
+    transition: 1s;
+}
+.img7:hover {
+    background: url(/img/IMAGE-6.png);
+    height: 225px;
+    width: 300px;
+    position: absolute;
+    left:296px;
+    top:1112px;
+    transform:scale(1.03);
+    transition: 1s;
+}
+.img8:hover {
+    background: url(/img/IMAGE-7.png);
+    height: 225px;
+    width: 300px;
+    position: absolute;
+    left:616px;
+    top:1112px;
+    transform:scale(1.03);
+    transition: 1s;
+}
+.img9:hover {
+    background: url(/img/IMAGE-8.png);
+    height: 225px;
+    width: 300px;
+    position: absolute;
+    left:936px;
+    top:1112px;
+    transform:scale(1.03);
+    transition: 1s;
+}
+.food {
+    font-size: 15px;
+    color: #ffffff;
+    position: absolute;
+    top:1473px;
+    width:70px;
+    height: 22px;
+    text-align: center;
+    left: 724.5px;
+
+}
+.fooder {
+    font-size: 10px;
+    color: #ffffff;
+    position: absolute;
+    top:1499px;
+    width:121px;
+    height: 18px;
+    text-align: center;
+    left: 699px;
+    padding-bottom: 100px;
+}
